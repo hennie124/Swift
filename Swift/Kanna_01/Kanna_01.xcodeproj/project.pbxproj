@@ -1,0 +1,417 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		67CFCC3326AE833F0020B90A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67CFCC3226AE833F0020B90A /* AppDelegate.swift */; };
+		67CFCC3526AE833F0020B90A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67CFCC3426AE833F0020B90A /* SceneDelegate.swift */; };
+		67CFCC3726AE833F0020B90A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67CFCC3626AE833F0020B90A /* ViewController.swift */; };
+		67CFCC3A26AE833F0020B90A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 67CFCC3826AE833F0020B90A /* Main.storyboard */; };
+		67CFCC3C26AE83400020B90A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 67CFCC3B26AE83400020B90A /* Assets.xcassets */; };
+		67CFCC3F26AE83400020B90A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 67CFCC3D26AE83400020B90A /* LaunchScreen.storyboard */; };
+		E3330288FA6107F70B7D385A /* Pods_Kanna_01.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1BDB0D413202E9B8BF2FFF3 /* Pods_Kanna_01.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		041355038DD0937154B139D6 /* Pods-Kanna_01.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Kanna_01.release.xcconfig"; path = "Target Support Files/Pods-Kanna_01/Pods-Kanna_01.release.xcconfig"; sourceTree = "<group>"; };
+		67CFCC2F26AE833F0020B90A /* Kanna_01.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Kanna_01.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		67CFCC3226AE833F0020B90A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		67CFCC3426AE833F0020B90A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		67CFCC3626AE833F0020B90A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		67CFCC3926AE833F0020B90A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		67CFCC3B26AE83400020B90A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		67CFCC3E26AE83400020B90A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		67CFCC4026AE83400020B90A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D1BDB0D413202E9B8BF2FFF3 /* Pods_Kanna_01.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Kanna_01.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FEF0C33D7944C229680252E9 /* Pods-Kanna_01.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Kanna_01.debug.xcconfig"; path = "Target Support Files/Pods-Kanna_01/Pods-Kanna_01.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		67CFCC2C26AE833F0020B90A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E3330288FA6107F70B7D385A /* Pods_Kanna_01.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		55E1611EE5019ECB57438ADC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FEF0C33D7944C229680252E9 /* Pods-Kanna_01.debug.xcconfig */,
+				041355038DD0937154B139D6 /* Pods-Kanna_01.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		67CFCC2626AE833F0020B90A = {
+			isa = PBXGroup;
+			children = (
+				67CFCC3126AE833F0020B90A /* Kanna_01 */,
+				67CFCC3026AE833F0020B90A /* Products */,
+				55E1611EE5019ECB57438ADC /* Pods */,
+				EDB638473C6D802B0BF6E14B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		67CFCC3026AE833F0020B90A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				67CFCC2F26AE833F0020B90A /* Kanna_01.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		67CFCC3126AE833F0020B90A /* Kanna_01 */ = {
+			isa = PBXGroup;
+			children = (
+				67CFCC3226AE833F0020B90A /* AppDelegate.swift */,
+				67CFCC3426AE833F0020B90A /* SceneDelegate.swift */,
+				67CFCC3626AE833F0020B90A /* ViewController.swift */,
+				67CFCC3826AE833F0020B90A /* Main.storyboard */,
+				67CFCC3B26AE83400020B90A /* Assets.xcassets */,
+				67CFCC3D26AE83400020B90A /* LaunchScreen.storyboard */,
+				67CFCC4026AE83400020B90A /* Info.plist */,
+			);
+			path = Kanna_01;
+			sourceTree = "<group>";
+		};
+		EDB638473C6D802B0BF6E14B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D1BDB0D413202E9B8BF2FFF3 /* Pods_Kanna_01.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		67CFCC2E26AE833F0020B90A /* Kanna_01 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 67CFCC4326AE83400020B90A /* Build configuration list for PBXNativeTarget "Kanna_01" */;
+			buildPhases = (
+				33F3040D1ED28F8066337DF3 /* [CP] Check Pods Manifest.lock */,
+				67CFCC2B26AE833F0020B90A /* Sources */,
+				67CFCC2C26AE833F0020B90A /* Frameworks */,
+				67CFCC2D26AE833F0020B90A /* Resources */,
+				B724B33F91D8C7C8C7F749E4 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Kanna_01;
+			productName = Kanna_01;
+			productReference = 67CFCC2F26AE833F0020B90A /* Kanna_01.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		67CFCC2726AE833F0020B90A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					67CFCC2E26AE833F0020B90A = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+				};
+			};
+			buildConfigurationList = 67CFCC2A26AE833F0020B90A /* Build configuration list for PBXProject "Kanna_01" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 67CFCC2626AE833F0020B90A;
+			productRefGroup = 67CFCC3026AE833F0020B90A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				67CFCC2E26AE833F0020B90A /* Kanna_01 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		67CFCC2D26AE833F0020B90A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67CFCC3F26AE83400020B90A /* LaunchScreen.storyboard in Resources */,
+				67CFCC3C26AE83400020B90A /* Assets.xcassets in Resources */,
+				67CFCC3A26AE833F0020B90A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		33F3040D1ED28F8066337DF3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Kanna_01-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B724B33F91D8C7C8C7F749E4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Kanna_01/Pods-Kanna_01-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Kanna_01/Pods-Kanna_01-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Kanna_01/Pods-Kanna_01-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		67CFCC2B26AE833F0020B90A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67CFCC3726AE833F0020B90A /* ViewController.swift in Sources */,
+				67CFCC3326AE833F0020B90A /* AppDelegate.swift in Sources */,
+				67CFCC3526AE833F0020B90A /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		67CFCC3826AE833F0020B90A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				67CFCC3926AE833F0020B90A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		67CFCC3D26AE83400020B90A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				67CFCC3E26AE83400020B90A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		67CFCC4126AE83400020B90A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		67CFCC4226AE83400020B90A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		67CFCC4426AE83400020B90A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FEF0C33D7944C229680252E9 /* Pods-Kanna_01.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L53MRY49Z2;
+				INFOPLIST_FILE = Kanna_01/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "hyeon.Kanna-01";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		67CFCC4526AE83400020B90A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 041355038DD0937154B139D6 /* Pods-Kanna_01.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L53MRY49Z2;
+				INFOPLIST_FILE = Kanna_01/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "hyeon.Kanna-01";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		67CFCC2A26AE833F0020B90A /* Build configuration list for PBXProject "Kanna_01" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				67CFCC4126AE83400020B90A /* Debug */,
+				67CFCC4226AE83400020B90A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		67CFCC4326AE83400020B90A /* Build configuration list for PBXNativeTarget "Kanna_01" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				67CFCC4426AE83400020B90A /* Debug */,
+				67CFCC4526AE83400020B90A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 67CFCC2726AE833F0020B90A /* Project object */;
+}
