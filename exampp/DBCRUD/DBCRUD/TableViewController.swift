@@ -12,14 +12,9 @@ class TableViewController: UITableViewController {
     @IBOutlet var listTableView: UITableView!
     
     var feedItem:NSArray = NSArray()
-//    var studentList : [DBModel] = []
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-//        let queryModel = QueryModel()
-//        queryModel.delegate = self
-//        queryModel.downloadItems()
 
         // Uncomment the following line to preserve selection between presentations
         // self.clearsSelectionOnViewWillAppear = false
@@ -54,10 +49,6 @@ class TableViewController: UITableViewController {
         
         cell.textLabel?.text = "성명 : \(item.sname!)"
         cell.detailTextLabel?.text = "학번 : \(item.scode!)"
-        
-//        for i in 0...feedItem.count{
-//            DBModel.init(scode: item.scode!,sname: item.sname!,sdept: item.sdept!,sphone: item.sphone!)
-//        }
 
         return cell
     }

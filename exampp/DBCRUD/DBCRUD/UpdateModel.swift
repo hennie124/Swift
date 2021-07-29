@@ -7,11 +7,11 @@
 
 import Foundation
 class UpdateModel{
-    var urlPath = "http://192.168.2.101:8080/ios/studentUpdate_ios.jsp"
+    var urlPath = "http://192.168.0.11:8080/ios/studentUpdate_ios.jsp"
     func UpdateItems(code:String,name:String,dept:String,phone:String)  -> Bool{
         
         var result: Bool = true
-        let urlAddr = "?code=\(code)&name=\(name)&dept=\(dept)&phone=\(phone)"
+        let urlAddr = "?name=\(name)&dept=\(dept)&phone=\(phone)&code=\(code)"
         urlPath = urlPath + urlAddr
         let url: URL = URL(string: urlPath)!
      

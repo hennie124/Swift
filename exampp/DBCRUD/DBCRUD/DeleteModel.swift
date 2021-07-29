@@ -7,7 +7,7 @@
 
 import Foundation
 class DeleteModel{
-    var urlPath = "http://192.168.2.101:8080/ios/studentDelete_ios.jsp"
+    var urlPath = "http://192.168.0.11:8080/ios/studentDelete_ios.jsp"
     func DeleteItems(code:String)  -> Bool{
         
         var result: Bool = true
