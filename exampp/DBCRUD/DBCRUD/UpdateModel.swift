@@ -7,16 +7,17 @@
 
 import Foundation
 class UpdateModel{
-    var urlPath = "http://192.168.0.11:8080/ios/studentUpdate_ios.jsp"
+    var urlPath = "http://192.168.2.101:8080/ios/studentUpdate_ios.jsp"
     func UpdateItems(code:String,name:String,dept:String,phone:String)  -> Bool{
         
         var result: Bool = true
         let urlAddr = "?name=\(name)&dept=\(dept)&phone=\(phone)&code=\(code)"
         urlPath = urlPath + urlAddr
-        let url: URL = URL(string: urlPath)!
+        print(urlPath)
      
         //한글 url encoding
         urlPath = urlPath.addingPercentEncoding(withAllowedCharacters: CharacterSet.urlQueryAllowed)!
+        let url: URL = URL(string: urlPath)!
         let defaultSession = URLSession(configuration: URLSessionConfiguration.default)
         let task = defaultSession.dataTask(with: url){(data, response, error) in
             if error != nil {

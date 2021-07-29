@@ -12,7 +12,7 @@ protocol QueryModelProtocol{
 
 class QueryModel: NSObject {
     var delegate: QueryModelProtocol!
-    let urlPath = "http://192.168.0.11:8080/ios/student_query_ios.jsp"
+    let urlPath = "http://192.168.2.101:8080/ios/student_query_ios.jsp"
     func downloadItems() {
         let url: URL = URL(string: urlPath)!
 //        let defaultSession = Foundation.URLSession(configuration: URLSessionConfiguration.default) --> Foundation 써도 되고 안 써도 됨

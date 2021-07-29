@@ -19,6 +19,7 @@ class DetailViewController: UIViewController {
     var receiveName = ""
     var receiveDept = ""
     var receivePhone = ""
+    
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -30,6 +31,7 @@ class DetailViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
     
+    // 받아온 데이터
     func receiveData(scode:String, sname:String, sdept:String, sphone: String){
         receiveCode = scode
         receiveName = sname
@@ -39,11 +41,18 @@ class DetailViewController: UIViewController {
 
     
     @IBAction func btnUpdate(_ sender: UIButton) {
-
+        
+        // 받아온 것의 수정한 것을 UpdateModel에 보내기 위해 수정한 텍스트의 변수를 만든다
+        let code = tfCode.text
+        let name = tfName.text
+        let dept = tfDept.text
+        let phone = tfPhone.text
+        
+        //updateModel을 불러와서 보낸다!
         let updateModel = UpdateModel()
-        let result = updateModel.UpdateItems(code: receiveCode, name: receiveName, dept: receiveDept, phone: receivePhone)
+        let result = updateModel.UpdateItems(code: code!, name: name!, dept: dept!, phone: phone!)
         
-        
+        //완료 , 실패시 띄우는 메세지
         if result{
             let resultAlert = UIAlertController(title: "완료", message: "수정이 되었습니다!", preferredStyle: .alert)
             let onAction = UIAlertAction(title: "OK", style: .default, handler: {ACTION in
