@@ -14,7 +14,7 @@ class DBModel: NSObject {
     
     //Empty constructor
     override init() {
-        
+        print(1)
     }
     
     init(scode:String,sname:String,sdept:String,sphone:String) {
@@ -22,5 +22,7 @@ class DBModel: NSObject {
         self.sname = sname
         self.sdept = sdept
         self.sphone = sphone
+        
+        print(2)
     }
 }

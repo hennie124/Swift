@@ -21,23 +21,27 @@ class TableViewController: UITableViewController {
 
         // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
         // self.navigationItem.rightBarButtonItem = self.editButtonItem
+        print(3)
     }
     
     override func viewWillAppear(_ animated: Bool) {
         let queryModel = QueryModel()
         queryModel.delegate = self
         queryModel.downloadItems()
+        print(4)
     }
 
     // MARK: - Table view data source
 
     override func numberOfSections(in tableView: UITableView) -> Int {
         // #warning Incomplete implementation, return the number of sections
+        print(5)
         return 1
     }
 
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         // #warning Incomplete implementation, return the number of rows
+        print("feedItem.count = ",feedItem.count)
         return feedItem.count
     }
 
@@ -49,7 +53,7 @@ class TableViewController: UITableViewController {
         
         cell.textLabel?.text = "성명 : \(item.sname!)"
         cell.detailTextLabel?.text = "학번 : \(item.scode!)"
-
+        print(7)
         return cell
     }
    
@@ -104,7 +108,7 @@ class TableViewController: UITableViewController {
             let item:DBModel = feedItem[indexPath!.row] as! DBModel
             
             detailView.receiveData(scode: item.scode!, sname: item.sname!, sdept: item.sdept!, sphone: item.sphone!)
-
+            print(8)
             
         }
     }
@@ -114,6 +118,7 @@ extension TableViewController:QueryModelProtocol{
     func itemDownloaded(items: NSArray) {
         feedItem = items
         self.listTableView.reloadData()
+        print(9)
     }
     
 }

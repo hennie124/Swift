@@ -9,7 +9,6 @@ import Foundation
 class InsertModel{
     var urlPath = "http://192.168.2.101:8080/ios/studentInsert_ios.jsp"
     func InsertItems(code:String,name:String,dept:String,phone:String)  -> Bool{
-        
         var result: Bool = true
         let urlAddr = "?code=\(code)&name=\(name)&dept=\(dept)&phone=\(phone)"
         urlPath = urlPath + urlAddr
